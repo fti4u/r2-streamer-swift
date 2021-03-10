@@ -10,7 +10,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 /// Container protocol associated errors.
 ///

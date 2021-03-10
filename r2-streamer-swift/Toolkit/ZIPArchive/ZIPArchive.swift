@@ -8,7 +8,7 @@
 
 import Foundation
 import Minizip
-import R2Shared
+import R2BShared
 
 public struct ZipFileInfo {
     let path: String

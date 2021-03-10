@@ -11,7 +11,7 @@
 
 import Foundation
 import Fuzi
-import R2Shared
+import R2BShared
 
 
 /// Package vocabularies used for `property`, `properties`, `scheme` and `rel`.

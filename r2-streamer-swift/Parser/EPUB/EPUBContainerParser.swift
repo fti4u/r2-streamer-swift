@@ -11,7 +11,7 @@
 
 import Foundation
 import Fuzi
-import R2Shared
+import R2BShared
 
 
 /// A parser for the META-INF/container.xml file.

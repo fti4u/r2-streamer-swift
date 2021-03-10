@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 /// `Publication` and the associated `Container`.
 @available(*, unavailable, message: "Use an instance of `Streamer` to open a `Publication`")

@@ -10,7 +10,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 /// Positions Service for an EPUB from its `readingOrder` and `fetcher`.
 ///

@@ -11,7 +11,7 @@
 
 import XCTest
 import Fuzi
-import R2Shared
+import R2BShared
 @testable import R2Streamer
 
 

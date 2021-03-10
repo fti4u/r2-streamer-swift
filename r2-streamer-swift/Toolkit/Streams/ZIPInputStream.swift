@@ -11,7 +11,7 @@
 
 import UIKit
 import Minizip
-import R2Shared
+import R2BShared
 
 extension ZipInputStream: Loggable {}
 

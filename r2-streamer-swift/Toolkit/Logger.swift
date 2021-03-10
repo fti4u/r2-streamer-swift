@@ -10,7 +10,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 @available(*, deprecated, message: "Use `R2Shared.R2EnableLog` instead")
 public func R2StreamerEnableLog(withMinimumSeverityLevel level: SeverityLevel, customLogger: LoggerType = LoggerStub()) -> () {

@@ -9,7 +9,7 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
-import R2Shared
+import R2BShared
 import Fuzi
 
 /// The object containing the methods used to parse SMIL files.

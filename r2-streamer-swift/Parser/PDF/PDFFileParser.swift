@@ -11,7 +11,7 @@
 
 import Foundation
 import UIKit
-import R2Shared
+import R2BShared
 
 
 /// Structure holding the metadata from a standalone PDF file.
@@ -95,15 +95,15 @@ public extension PDFFileParser {
     var author: String? { try? parseMetadata().author }
     var subject: String? { try? parseMetadata().subject }
     var keywords: [String] { (try? parseMetadata().keywords) ?? [] }
-    var outline: [R2Shared.PDFOutlineNode] { (try? parseMetadata().outline.map { $0.asShared() }) ?? [] }
+    var outline: [R2BShared.PDFOutlineNode] { (try? parseMetadata().outline.map { $0.asShared() }) ?? [] }
 
 }
 
 @available(*, deprecated)
 extension PDFOutlineNode {
     
-    func asShared() -> R2Shared.PDFOutlineNode {
-        R2Shared.PDFOutlineNode(title: title, pageNumber: pageNumber, children: children.map { $0.asShared() })
+    func asShared() -> R2BShared.PDFOutlineNode {
+        R2BShared.PDFOutlineNode(title: title, pageNumber: pageNumber, children: children.map { $0.asShared() })
     }
     
 }

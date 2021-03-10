@@ -6,7 +6,7 @@
 
 import Foundation
 import XCTest
-import R2Shared
+import R2BShared
 @testable import R2Streamer
 
 class AudioLocatorServiceTests: XCTestCase {

@@ -10,7 +10,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 import Fuzi
 
 /// Applies various CSS injections in reflowable EPUB resources.

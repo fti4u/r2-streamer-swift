@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 /// Parses a Publication from an asset.
 public protocol PublicationParser {

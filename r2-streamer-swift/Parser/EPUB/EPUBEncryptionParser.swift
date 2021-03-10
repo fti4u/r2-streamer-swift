@@ -11,7 +11,7 @@
 
 import Foundation
 import Fuzi
-import R2Shared
+import R2BShared
 
 
 /// A parser module which provide methods to parse encrypted XML elements.

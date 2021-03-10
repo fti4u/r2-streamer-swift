@@ -11,7 +11,7 @@
 
 import Foundation
 import CoreGraphics
-import R2Shared
+import R2BShared
 
 /// Errors thrown during the parsing of the PDF.
 public enum PDFParserError: Error {

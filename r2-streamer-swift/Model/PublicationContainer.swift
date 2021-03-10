@@ -10,7 +10,7 @@
 //
 
 import Foundation
-import R2Shared
+import R2BShared
 
 /// Temporary solution to migrate `Publication.get()` while ensuring backward compatibility with
 /// `Container`.

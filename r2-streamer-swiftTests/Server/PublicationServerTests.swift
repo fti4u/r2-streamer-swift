@@ -5,7 +5,7 @@
 //
 
 import XCTest
-import R2Shared
+import R2BShared
 @testable import R2Streamer
 
 class PublicationServerTests: XCTestCase, Loggable {
